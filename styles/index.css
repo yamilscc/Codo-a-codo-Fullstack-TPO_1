@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+header, footer {
+    background-color: #D3D2DB;
+}
+
+body {
+    background-color: #5BD3DA; 
+}
+
+main .contenedorImagenIdioma {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    border: 1px solid black;
+
+    padding: 2rem;
+
+}
+
+
+main .contenedorFilaIdioma {
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+    border: 1px solid red;
+
+    padding: 2rem;
+}
+
+main .contenidoImagenIdioma {
+    width: 100%;
+}

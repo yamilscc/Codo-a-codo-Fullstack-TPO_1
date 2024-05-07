@@ -1,0 +1,117 @@
+
+body {
+
+    width: 100%;
+    height: 100%;
+    background-color: #CDE8E5;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    /*quita lo subrayado de los a*/
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+header img {
+    width: 100px;
+}
+
+.buton {
+    background-color: #4D869C;
+    color: white;
+    padding: 10px;
+    margin-right: 7px;
+    border-radius: 5px;
+    border-top-right-radius: 8px;
+    box-shadow: 3px 3px 3px black;
+
+}
+
+.buton:hover {
+    background-color: #EEF7FF;
+    color: black;
+    border-top-right-radius: 20px;
+    transition: 0, 1s all;
+}
+
+nav {
+    background-color: #7AB2B2;
+    position: sticky;
+    top: 0;
+    border: 1px solid black;
+}
+
+
+nav ul {
+    list-style-type: none;
+    /*quita los puntitos de las listas*/
+    display: flex;
+
+}
+
+
+#idiomas {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* Centra verticalmente */
+    align-items: center;
+    /* Centra horizontalmente */
+
+}
+
+
+
+.imgHome {
+    width: 50%;
+    height: 50%;
+    margin-bottom: 20px; /* Espacio entre las imágenes */
+     position: relative;
+     left: 25%;
+
+}
+
+
+footer {
+    width: 100%;
+    border: 1px solid black;
+    background-color:#4D869C;
+    color: #FFF3C7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+ 
+
+
+}
+
+.logofinal {
+    width: 10%;
+    height: 10%;
+}
+
+footer .redes {
+    font-size: 2em;
+    position: absolute;
+
+}
+
+footer .redes i {
+    color: blue;
+    position: absolute;
+}
+
+footer .redes i:hover {
+    color: white;
+}
