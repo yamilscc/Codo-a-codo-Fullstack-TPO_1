@@ -1,0 +1,16 @@
+{
+    "clubes_clasificados": [
+        "River Plate",
+        "Boca Juniors",
+        "Estudiantes de La Plata",
+        "Racing Club",
+        "Independiente"],
+
+    "horarios_partidos": [
+        "Mediodía",
+        "Tarde",
+        "Noche"],
+
+    "tipo_de_torneo": "Nacional",
+    "cantidad_partidos": 20
+}
