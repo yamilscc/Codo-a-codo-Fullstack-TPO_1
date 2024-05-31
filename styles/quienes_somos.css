@@ -122,51 +122,40 @@ nav #Idiomas:hover + .opciones, nav #Cursos:hover + .opciones, .opciones:hover{
 main {
     background-color: hsl(190, 77%, 88%); 
     font-family: LouisGeorgeCafe;
-}
+    font-size: 2rem;
 
-main .contenedorImagenIdioma {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-content: center;
-
-    padding: 2rem;
-
+    align-items: space-around;
 }
 
-main .contenedorImgCentral { 
-    padding: 1.2rem;
+main .contenedorCuerpo {
+    display: flex;
+    justify-content: space-around;
+    align-items: space-around;
 }
 
-main .contenedorImagenIdioma img {
-    width: 40rem;
-    height: 25rem;
-    border-radius: 2rem;
-    transition: 0.2 all;
+main .contenedorCuerpo img {
+    padding: 2rem 4rem 2rem 0;
+    width: 60rem;
+    height: 62.5rem;
 }
 
-main .contenedorImagenIdioma img:hover{
-    border: solid 0.5rem rgb(0,0,0);
+main section {
+    padding: 1.5rem 0 2rem 0;
 }
 
-main .contenedorFilaIdioma {
-    display: inline-flex;
-    justify-content: center;
-    align-content: center;
-    padding: 2rem;
+main p{
+    padding: 1rem 4rem 1rem 4rem;
 }
 
-main h1, main h2 {
-    display: inline-flex;
-    justify-content: center;
-}
-
-main h1{
+main h1 {
+    padding: 2rem 1rem 1rem 1rem;
     font-size: 3rem;
-}
 
-main h2{
-    font-size: 2rem;
+    display: flex;
+    justify-content: center;
 }
 
 footer {

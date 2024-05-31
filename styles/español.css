@@ -51,6 +51,8 @@ header {
     top: 0;
 
     border-bottom: 0.1rem solid black;
+
+    z-index: 100;
 }
 
 header img {
@@ -122,52 +124,58 @@ nav #Idiomas:hover + .opciones, nav #Cursos:hover + .opciones, .opciones:hover{
 main {
     background-color: hsl(190, 77%, 88%); 
     font-family: LouisGeorgeCafe;
+
+    display: flex;
+    justify-content: space-around;
+
+    font-size: 2rem;
+
 }
 
-main .contenedorImagenIdioma {
+main .cuerpo {
+    padding: 3rem;
+}
+
+main .barraNavegacionLateral {
+
+    background-color: #0077B6;
+    padding: 3rem 1rem 1rem 1rem ; 
+    font-size: 1.6rem;
+
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-content: center;
+    justify-content: flex-start;
 
-    padding: 2rem;
+    position: sticky;
+    left: 0;
+    top: 7.4rem;
+    bottom: 7.4rem;
+    width: 120rem;
 
+    z-index: 50;
 }
 
-main .contenedorImgCentral { 
-    padding: 1.2rem;
+main .barraNavegacionLateral .item{
+    position: sticky;
+    left: 0;
+
+    padding: 0.5rem 0 0.5rem 0;
 }
 
-main .contenedorImagenIdioma img {
-    width: 40rem;
-    height: 25rem;
-    border-radius: 2rem;
-    transition: 0.2 all;
+main .barraNavegacionLateral ul {
+    list-style: none;
 }
 
-main .contenedorImagenIdioma img:hover{
-    border: solid 0.5rem rgb(0,0,0);
+main #VideoIdioma iframe {
+    margin: 2rem 0 2rem 0;
+    border-radius: 1.5rem;
 }
 
-main .contenedorFilaIdioma {
-    display: inline-flex;
-    justify-content: center;
-    align-content: center;
-    padding: 2rem;
+main .cuerpo article{
+    margin: 1rem 0 1rem 0;
 }
 
-main h1, main h2 {
-    display: inline-flex;
-    justify-content: center;
-}
 
-main h1{
-    font-size: 3rem;
-}
-
-main h2{
-    font-size: 2rem;
-}
 
 footer {
     display: flex;

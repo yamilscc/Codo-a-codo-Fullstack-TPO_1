@@ -1,0 +1,201 @@
+{
+    "cursos_español": [
+        {
+            "Tipo Curso":"Incremental",
+            "Curso": "Elemental",
+            "Profesor": "Claudio Gonzalez",
+            "Nivel": "A1",
+            "Duración": 3 
+        },
+
+        {
+            "Tipo Curso":"Incremental",
+            "Curso": "Consolidando",
+            "Profesor": "María Martinez",
+            "Nivel": "A2",
+            "Duración": 3 
+        },
+
+        {
+            "Tipo Curso":"Incremental",
+            "Curso": "Intermedio",
+            "Profesor": "Fernanda Costa",
+            "Nivel": "B1",
+            "Duración": 6 
+        },
+
+        {
+            "Tipo Curso":"Incremental",
+            "Curso": "Intermedio-Superior",
+            "Profesor": "Antonio Aguirre",
+            "Nivel": "B2",
+            "Duración": 6
+        },
+
+        {
+            "Tipo Curso":"Incremental",
+            "Curso": "Intermedio-Superior",
+            "Profesor": "Laura Aguirre",
+            "Nivel": "C1",
+            "Duración": 9
+        },
+
+        {
+            "Tipo Curso":"Incremental",
+            "Curso": "Competencia Completa",
+            "Profesor": "Romina Madariaga",
+            "Nivel": "C2",
+            "Duración": 9 
+        }
+    ],
+
+    "cursos_ingles": [
+        {
+            "Tipo Curso":"Incremental",
+            "Curso": "Elemental",
+            "Profesor": "Marcos Perez",
+            "Nivel": "A1",
+            "Duración": 3 
+        },
+
+        {
+            "Tipo Curso":"Incremental",
+            "Curso": "Consolidando",
+            "Profesor": "Alberto Gimenez",
+            "Nivel": "A2",
+            "Duración": 3 
+        },
+
+        {
+            "Tipo Curso":"Incremental",
+            "Curso": "Intermedio",
+            "Profesor": "Lucas Martinez",
+            "Nivel": "B1",
+            "Duración": 6 
+        },
+
+        {
+            "Tipo Curso":"Incremental",
+            "Curso": "Intermedio-Superior",
+            "Profesor": "Mauro Medina",
+            "Nivel": "B2",
+            "Duración": 6
+        },
+
+        {
+            "Tipo Curso":"Incremental",
+            "Curso": "Intermedio-Superior",
+            "Profesor": "Lucia Medina",
+            "Nivel": "C1",
+            "Duración": 9
+        },
+
+        {
+            "Tipo Curso":"Incremental",
+            "Curso": "Competencia Completa",
+            "Profesor": "Camila Oblak",
+            "Nivel": "C2",
+            "Duración": 9 
+        }
+    ],
+
+    "cursos_portugues": [
+        {
+            "Tipo Curso":"Incremental",
+            "Curso": "Elemental",
+            "Profesor": "Felipe Melo",
+            "Nivel": "A1",
+            "Duración": 3 
+        },
+
+        {
+            "Tipo Curso":"Incremental",
+            "Curso": "Consolidando",
+            "Profesor": "Daniel Alves",
+            "Nivel": "A2",
+            "Duración": 3 
+        },
+
+        {
+            "Tipo Curso":"Incremental",
+            "Curso": "Intermedio",
+            "Profesor": "Fernanda Costa",
+            "Nivel": "B1",
+            "Duración": 6 
+        },
+
+        {
+            "Tipo Curso":"Incremental",
+            "Curso": "Intermedio-Superior",
+            "Profesor": "Pablo Araujo",
+            "Nivel": "B2",
+            "Duración": 6
+        },
+
+        {
+            "Tipo Curso":"Incremental",
+            "Curso": "Intermedio-Superior",
+            "Profesor": "Matías Lanzillota",
+            "Nivel": "C1",
+            "Duración": 9
+        },
+
+        {
+            "Tipo Curso":"Incremental",
+            "Curso": "Competencia Completa",
+            "Profesor": "Laura Santana",
+            "Nivel": "C2",
+            "Duración": 9 
+        }
+    ],
+
+    "cursos_italiano": [
+        {
+            "Tipo Curso":"Incremental",
+            "Curso": "Elemental",
+            "Profesor": "Analía Pisera",
+            "Nivel": "A1",
+            "Duración": 3 
+        },
+
+        {
+            "Tipo Curso":"Incremental",
+            "Curso": "Consolidando",
+            "Profesor": "Soledad Ratto",
+            "Nivel": "A2",
+            "Duración": 3 
+        },
+
+        {
+            "Tipo Curso":"Incremental",
+            "Curso": "Intermedio",
+            "Profesor": "Ana María Heredia",
+            "Nivel": "B1",
+            "Duración": 6 
+        },
+
+        {
+            "Tipo Curso":"Incremental",
+            "Curso": "Intermedio-Superior",
+            "Profesor": "Pedro Perez",
+            "Nivel": "B2",
+            "Duración": 6
+        },
+
+        {
+            "Tipo Curso":"Incremental",
+            "Curso": "Intermedio-Superior",
+            "Profesor": "Lautaro Lanzillota",
+            "Nivel": "C1",
+            "Duración": 9
+        },
+
+        {
+            "Tipo Curso":"Incremental",
+            "Curso": "Competencia Completa",
+            "Profesor": "Pablo Carrizo",
+            "Nivel": "C2",
+            "Duración": 9 
+        }
+    ]
+}
