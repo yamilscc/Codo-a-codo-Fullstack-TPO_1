@@ -37,10 +37,10 @@
                 <li id="Cursos"><a href="#">Cursos</a></li>
                 <div id="OpcionesCursos" class="opciones">
                     <ul>
-                        <li><a href="español.html">Idioma Español</a></li>
-                        <li><a href="ingles.html">Idioma Inglés</a></li>
-                        <li><a href="portugues.html">Idioma Portugués</a></li>
-                        <li><a href="italiano.html">Idioma Italiano</a></li>
+                        <li><a href="../pages/español.html#Cursos">Idioma Español</a></li>
+                        <li><a href="../pages/ingles.html#Cursos">Idioma Inglés</a></li>
+                        <li><a href="../pages/portugues.html#Cursos">Idioma Portugués</a></li>
+                        <li><a href="../pages/italiano.html#Cursos">Idioma Italiano</a></li>
                     </ul>
                 </div>
                 <li><a href="quienes_somos.html">Quiénes somos</a></li>
@@ -48,7 +48,7 @@
             </ul>
         </nav>
 
-        <a href="pages/login.html" class="button">Iniciar sesión</a>
+        <a href="../pages/login.html" class="button">Iniciar sesión</a>
     </header>
 
 
@@ -131,8 +131,31 @@
                 </article>
             </section>
     
-            <section>
+            <section id="Cursos">
                 <h2>Cursos</h2>
+
+                <article>
+                    <table id="Contenedor">
+                        
+                        <tr>
+                            <th>Tipo de Curso</th>
+                            <th>Nombre del Curso</th>
+                            <th>Profesor a cargo</th>
+                            <th>Nivel</th>
+                            <th>Duración</th>
+                        </tr>
+
+                        <tr id="Plantilla">
+                            <td id="Tipo_Curso"></td>
+                            <td id="Curso"></td>
+                            <td id="Profesor"></td>
+                            <td id="Nivel"></td>
+                            <td id="Duracion"></td>
+                        </tr>
+
+                    </table>
+                </article>
+                
             </section>
     
             <section>
@@ -182,6 +205,8 @@
         </div>
 
     </footer>
+
+    <script src="../js/italiano.js"></script>
     
 </body>
 </html>

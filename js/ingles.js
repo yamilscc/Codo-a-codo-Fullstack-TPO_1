@@ -15,21 +15,20 @@ fetch(url) //Hacemos un get (petición http)desde el endpoint para obtener el JS
 .then(response => response.json())
 .then(data => {
     // Procesamiento de la info que llega de la API
-    console.log(data.cursos_español);
+    console.log(data.cursos_ingles);
 
-    for (let i = 0; i < data.cursos_español.length ; i++) {
+    for (let i = 0; i < data.cursos_ingles.length ; i++) {
         
         let elementoFila = copiaTabla.cloneNode(true);
 
-        elementoFila.querySelector("#Tipo_Curso").textContent = data.cursos_español[i].Tipo_Curso;
-        elementoFila.querySelector("#Curso").textContent = data.cursos_español[i].Curso;
-        elementoFila.querySelector("#Profesor").textContent = data.cursos_español[i].Profesor;
-        elementoFila.querySelector("#Nivel").textContent = data.cursos_español[i].Nivel;
-        elementoFila.querySelector("#Duracion").textContent = data.cursos_español[i].Duracion + " meses";
+        elementoFila.querySelector("#Tipo_Curso").textContent = data.cursos_ingles[i].Tipo_Curso;
+        elementoFila.querySelector("#Curso").textContent = data.cursos_ingles[i].Curso;
+        elementoFila.querySelector("#Profesor").textContent = data.cursos_ingles[i].Profesor;
+        elementoFila.querySelector("#Nivel").textContent = data.cursos_ingles[i].Nivel;
+        elementoFila.querySelector("#Duracion").textContent = data.cursos_ingles[i].Duracion + " meses";
         
         contenedor.appendChild(elementoFila);
     }
 
     })
 .catch(error => console.log("Ocurrió un error! " + error));
-

@@ -175,6 +175,16 @@ main .cuerpo article{
     margin: 1rem 0 1rem 0;
 }
 
+main #Contenedor th, main #Contenedor td {
+    border: 0.2rem solid blue;
+    padding: 1rem;
+}
+
+main #Contenedor th {
+    background-color: #023E8A;
+    color: #CAE9FF;
+}
+
 
 footer {
     display: flex;

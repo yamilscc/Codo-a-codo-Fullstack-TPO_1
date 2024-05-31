@@ -166,6 +166,10 @@ main .barraNavegacionLateral ul {
     list-style: none;
 }
 
+main article {
+    padding: 1rem 0 1rem 0;
+}
+
 main #VideoIdioma iframe {
     margin: 2rem 0 2rem 0;
     border-radius: 1.5rem;
@@ -173,6 +177,16 @@ main #VideoIdioma iframe {
 
 main .contenedorRespuesta article{
     margin: 1rem 0 1rem 0;
+}
+
+main #Contenedor th, main #Contenedor td {
+    border: 0.2rem solid blue;
+    padding: 1rem;
+}
+
+main #Contenedor th {
+    background-color: #023E8A;
+    color: #CAE9FF;
 }
 
 footer {
