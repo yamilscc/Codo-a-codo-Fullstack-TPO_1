@@ -46,7 +46,24 @@
             "Profesor": "Romina Madariaga",
             "Nivel": "C2",
             "Duración": 9 
+        },
+
+        {
+            "Tipo Curso":"Técnico",
+            "Curso": "Español Técnico Aeronáutico",
+            "Profesor": "Yamil Canseco",
+            "Nivel": "B2",
+            "Duración": 6 
+        },
+
+        {
+            "Tipo Curso":"Incremental",
+            "Curso": "Español Técnico para Programadores",
+            "Profesor": "Lucas García",
+            "Nivel": "B2",
+            "Duración": 9 
         }
+
     ],
 
     "cursos_ingles": [
@@ -95,6 +112,22 @@
             "Curso": "Competencia Completa",
             "Profesor": "Camila Oblak",
             "Nivel": "C2",
+            "Duración": 9 
+        },
+
+        {
+            "Tipo Curso":"Técnico",
+            "Curso": "Inglés Técnico Aeronáutico",
+            "Profesor": "Yamil Canseco",
+            "Nivel": "B2",
+            "Duración": 6 
+        },
+
+        {
+            "Tipo Curso":"Incremental",
+            "Curso": "Inglés Técnico para Programadores",
+            "Profesor": "Lucas García",
+            "Nivel": "B2",
             "Duración": 9 
         }
     ],
@@ -146,6 +179,22 @@
             "Profesor": "Laura Santana",
             "Nivel": "C2",
             "Duración": 9 
+        },
+
+        {
+            "Tipo Curso":"Técnico",
+            "Curso": "Portugués Técnico Aeronáutico",
+            "Profesor": "Antonia Martinez",
+            "Nivel": "B2",
+            "Duración": 6 
+        },
+
+        {
+            "Tipo Curso":"Incremental",
+            "Curso": "Portugués Técnico para Programadores",
+            "Profesor": "Eduardo Castellana",
+            "Nivel": "B2",
+            "Duración": 9 
         }
     ],
 
@@ -195,6 +244,22 @@
             "Curso": "Competencia Completa",
             "Profesor": "Pablo Carrizo",
             "Nivel": "C2",
+            "Duración": 9 
+        },
+
+        {
+            "Tipo Curso":"Técnico",
+            "Curso": "Italiano Técnico Aeronáutico",
+            "Profesor": "Lorena Garrido",
+            "Nivel": "B2",
+            "Duración": 6 
+        },
+
+        {
+            "Tipo Curso":"Incremental",
+            "Curso": "Italiano Técnico para Programadores",
+            "Profesor": "Macarena Gonzalez",
+            "Nivel": "B2",
             "Duración": 9 
         }
     ]
