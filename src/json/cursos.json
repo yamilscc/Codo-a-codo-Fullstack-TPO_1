@@ -5,7 +5,7 @@
             "Curso": "Elemental",
             "Profesor": "Claudio Gonzalez",
             "Nivel": "A1",
-            "Duración": 3 
+            "Duracion": 3 
         },
 
         {
@@ -13,7 +13,7 @@
             "Curso": "Consolidando",
             "Profesor": "María Martinez",
             "Nivel": "A2",
-            "Duración": 3 
+            "Duracion": 3 
         },
 
         {
@@ -21,7 +21,7 @@
             "Curso": "Intermedio",
             "Profesor": "Fernanda Costa",
             "Nivel": "B1",
-            "Duración": 6 
+            "Duracion": 6 
         },
 
         {
@@ -29,7 +29,7 @@
             "Curso": "Intermedio-Superior",
             "Profesor": "Antonio Aguirre",
             "Nivel": "B2",
-            "Duración": 6
+            "Duracion": 6
         },
 
         {
@@ -37,7 +37,7 @@
             "Curso": "Intermedio-Superior",
             "Profesor": "Laura Aguirre",
             "Nivel": "C1",
-            "Duración": 9
+            "Duracion": 9
         },
 
         {
@@ -45,7 +45,7 @@
             "Curso": "Competencia Completa",
             "Profesor": "Romina Madariaga",
             "Nivel": "C2",
-            "Duración": 9 
+            "Duracion": 9 
         },
 
         {
@@ -53,7 +53,7 @@
             "Curso": "Español Técnico Aeronáutico",
             "Profesor": "Yamil Canseco",
             "Nivel": "B2",
-            "Duración": 6 
+            "Duracion": 6 
         },
 
         {
@@ -61,7 +61,7 @@
             "Curso": "Español Técnico para Programadores",
             "Profesor": "Lucas García",
             "Nivel": "B2",
-            "Duración": 9 
+            "Duracion": 9 
         }
 
     ],
@@ -72,7 +72,7 @@
             "Curso": "Elemental",
             "Profesor": "Marcos Perez",
             "Nivel": "A1",
-            "Duración": 3 
+            "Duracion": 3 
         },
 
         {
@@ -80,7 +80,7 @@
             "Curso": "Consolidando",
             "Profesor": "Alberto Gimenez",
             "Nivel": "A2",
-            "Duración": 3 
+            "Duracion": 3 
         },
 
         {
@@ -88,7 +88,7 @@
             "Curso": "Intermedio",
             "Profesor": "Lucas Martinez",
             "Nivel": "B1",
-            "Duración": 6 
+            "Duracion": 6 
         },
 
         {
@@ -96,7 +96,7 @@
             "Curso": "Intermedio-Superior",
             "Profesor": "Mauro Medina",
             "Nivel": "B2",
-            "Duración": 6
+            "Duracion": 6
         },
 
         {
@@ -104,7 +104,7 @@
             "Curso": "Intermedio-Superior",
             "Profesor": "Lucia Medina",
             "Nivel": "C1",
-            "Duración": 9
+            "Duracion": 9
         },
 
         {
@@ -112,7 +112,7 @@
             "Curso": "Competencia Completa",
             "Profesor": "Camila Oblak",
             "Nivel": "C2",
-            "Duración": 9 
+            "Duracion": 9 
         },
 
         {
@@ -120,7 +120,7 @@
             "Curso": "Inglés Técnico Aeronáutico",
             "Profesor": "Yamil Canseco",
             "Nivel": "B2",
-            "Duración": 6 
+            "Duracion": 6 
         },
 
         {
@@ -128,7 +128,7 @@
             "Curso": "Inglés Técnico para Programadores",
             "Profesor": "Lucas García",
             "Nivel": "B2",
-            "Duración": 9 
+            "Duracion": 9 
         }
     ],
 
@@ -138,7 +138,7 @@
             "Curso": "Elemental",
             "Profesor": "Felipe Melo",
             "Nivel": "A1",
-            "Duración": 3 
+            "Duracion": 3 
         },
 
         {
@@ -146,7 +146,7 @@
             "Curso": "Consolidando",
             "Profesor": "Daniel Alves",
             "Nivel": "A2",
-            "Duración": 3 
+            "Duracion": 3 
         },
 
         {
@@ -154,7 +154,7 @@
             "Curso": "Intermedio",
             "Profesor": "Fernanda Costa",
             "Nivel": "B1",
-            "Duración": 6 
+            "Duracion": 6 
         },
 
         {
@@ -162,7 +162,7 @@
             "Curso": "Intermedio-Superior",
             "Profesor": "Pablo Araujo",
             "Nivel": "B2",
-            "Duración": 6
+            "Duracion": 6
         },
 
         {
@@ -170,7 +170,7 @@
             "Curso": "Intermedio-Superior",
             "Profesor": "Matías Lanzillota",
             "Nivel": "C1",
-            "Duración": 9
+            "Duracion": 9
         },
 
         {
@@ -178,7 +178,7 @@
             "Curso": "Competencia Completa",
             "Profesor": "Laura Santana",
             "Nivel": "C2",
-            "Duración": 9 
+            "Duracion": 9 
         },
 
         {
@@ -186,7 +186,7 @@
             "Curso": "Portugués Técnico Aeronáutico",
             "Profesor": "Antonia Martinez",
             "Nivel": "B2",
-            "Duración": 6 
+            "Duracion": 6 
         },
 
         {
@@ -194,7 +194,7 @@
             "Curso": "Portugués Técnico para Programadores",
             "Profesor": "Eduardo Castellana",
             "Nivel": "B2",
-            "Duración": 9 
+            "Duracion": 9 
         }
     ],
 
@@ -204,7 +204,7 @@
             "Curso": "Elemental",
             "Profesor": "Analía Pisera",
             "Nivel": "A1",
-            "Duración": 3 
+            "Duracion": 3 
         },
 
         {
@@ -212,7 +212,7 @@
             "Curso": "Consolidando",
             "Profesor": "Soledad Ratto",
             "Nivel": "A2",
-            "Duración": 3 
+            "Duracion": 3 
         },
 
         {
@@ -220,7 +220,7 @@
             "Curso": "Intermedio",
             "Profesor": "Ana María Heredia",
             "Nivel": "B1",
-            "Duración": 6 
+            "Duracion": 6 
         },
 
         {
@@ -228,7 +228,7 @@
             "Curso": "Intermedio-Superior",
             "Profesor": "Pedro Perez",
             "Nivel": "B2",
-            "Duración": 6
+            "Duracion": 6
         },
 
         {
@@ -236,7 +236,7 @@
             "Curso": "Intermedio-Superior",
             "Profesor": "Lautaro Lanzillota",
             "Nivel": "C1",
-            "Duración": 9
+            "Duracion": 9
         },
 
         {
@@ -244,7 +244,7 @@
             "Curso": "Competencia Completa",
             "Profesor": "Pablo Carrizo",
             "Nivel": "C2",
-            "Duración": 9 
+            "Duracion": 9 
         },
 
         {
@@ -252,7 +252,7 @@
             "Curso": "Italiano Técnico Aeronáutico",
             "Profesor": "Lorena Garrido",
             "Nivel": "B2",
-            "Duración": 6 
+            "Duracion": 6 
         },
 
         {
@@ -260,7 +260,7 @@
             "Curso": "Italiano Técnico para Programadores",
             "Profesor": "Macarena Gonzalez",
             "Nivel": "B2",
-            "Duración": 9 
+            "Duracion": 9 
         }
     ]
 }
