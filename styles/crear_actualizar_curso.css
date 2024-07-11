@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Baskerville;
+    src: url(../src/fonts/Baskerville_Serial_Font/SoftMaker\ -\ BaskervilleSerial.otf);
+}
+
+@font-face {
+    font-family: LouisGeorgeCafe;
+    src: url(../src/fonts/Louis_george_cafe/Louis\ George\ Cafe.ttf);
+}
+
+/* MEDIA QUERIES -  3 puntos de corte */
+/* Pantallas con un ancho máximo de 600px */
+@media only screen and (max-width: 600px) {
+    /* Definimos tamaño base de rem */
+    :root {
+        font-size: 4px;
+    }
+}
+
+/* Pantallas con un ancho mínimo de 601px y un máximo de 1024px */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    :root {
+        font-size: 7px;
+    }
+}
+
+/* Pantallas con un ancho mínimo de 1025px */
+@media only screen and (min-width: 1025px) {
+    :root {
+        font-size: 10px;
+    }
+}
+
+header, footer {
+    background-color: #48CAE4;
+    font-family: Baskerville;
+    font-size: 1rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    position: sticky;
+    top: 0;
+
+    border-bottom: 0.1rem solid black;
+}
+
+header img {
+    width: 27rem;
+}
+
+.button {
+    background-color: #7FBADC; 
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border-top-right-radius: 15px;
+    color: #091720;
+    transition: 0.8s all;
+ 
+    /*
+    BOX-SHADOW:
+     -1er atributo: Me indica cuanto me alejo del centro en el eje x.
+     -2do atributo: Me indica cuanto me alejo del centro en el eje y.
+     -3er atributo: Que tan blurreado quiero la sombra.
+     -4to atributo: Color de la sombra.
+    ;*/
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+}
+
+.button:hover {
+    background-color: black;
+    color: #CAE9FF;
+    border-top-right-radius: 5px;
+}
+
+nav {
+    width: 120rem;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul li {
+    padding: 1rem;
+}
+
+nav ul li a{
+    font-size: 1.7rem;
+}
+
+nav .opciones {
+    display: none;
+    font-size: 0.5rem;
+}
+
+nav #OpcionesIdiomas li a, nav #OpcionesCursos li a{
+    font-size: 0.9rem;
+    transition: 2s all;
+}
+
+nav #Idiomas:hover + .opciones, nav #Cursos:hover + .opciones, .opciones:hover{
+    display: block;
+}
+
+/*DESDE ACA*/
+main {
+    background-color: hsl(190, 77%, 88%); 
+    font-family: LouisGeorgeCafe;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 80vh;
+}
+
+main #Contenedor_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 45vh;
+    width: 32vw;
+
+    border: solid 1px black;
+    border-radius: 15px;
+
+    background-color: #7FBADC;
+
+    font-size: large;
+}
+
+main #Acciones_form{
+    display: flex;
+    justify-content: flex-end;
+}
+
+main i{
+    font-size: 30px;
+}
+
+
+main h1{
+    padding: 15px;
+    margin: 0;
+}
+
+main span{
+    display: block flex;
+    justify-content: space-between;
+
+}
+
+
+main input {
+    border: none;
+    background: none; /* Elimina el fondo */
+   /* outline: none; /* Elimina el borde de enfoque (outline) */
+    font: inherit;
+
+    border-radius: 2px; 
+    border: solid 2px black;   
+
+    margin-left: 5px;
+
+    margin-top: 1px;
+    margin-bottom: 1px ;
+
+    color: rgb(9, 39, 36);
+    font-weight: 500;
+    font-size: large;
+    
+    background-color: aliceblue;
+}
+
+main input::placeholder{
+    color: rgb(9, 39, 36);
+    font-weight: 500;
+}
+
+main label {
+    margin-right: 5px ;
+    font-weight: 700;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-top: 0.1rem solid black;
+}
+
+footer img {
+    width: 27rem;
+}
+
+footer #Redes{
+    font-size: 2rem;
+    padding-right: 1rem;
+}
+
+footer #Derechos {
+    font-size: 1.5rem;
+    padding-left: 1rem;
+}
+
+.contenedorFooter i{
+    transition: 0.5s all;
+}
+
+.contenedorFooter i:hover{
+    color: rgb(12, 55, 99);
+    font-size: 3rem;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    border: none;
+}
+
+

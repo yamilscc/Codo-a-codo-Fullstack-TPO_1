@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear-actualizar cursos | Idiomatic</title>
+
+     <!-- Favicon del sitio -->
+     <link rel="icon" href="../src/img/LogoSinFondo_Idiomatic.png">
+
+     <!-- Linkeo con Boxicon font -->
+     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+     
+     <!-- Linkeo con hoja de estilo en CSS -->
+     <link rel="stylesheet" href="../styles/crear_actualizar_curso.css">
+</head>
+<body>
+
+    <header id="Inicio">
+        <a href="../index.html#" title="Home">
+            <img src="../src/img/LogoLeyendaSinFondo_Idiomatic.png" alt="LogoLeyenda_Idiomatic">
+        </a>
+
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li id="Idiomas"><a href="#">Idiomas</a></li>
+                <div id="OpcionesIdiomas" class="opciones">
+                    <ul>
+                        <li><a href="español.html">Idioma Español</a></li>
+                        <li><a href="ingles.html">Idioma Inglés</a></li>
+                        <li><a href="portugues.html">Idioma Portugués</a></li>
+                        <li><a href="italiano.html">Idioma Italiano</a></li>
+                    </ul>
+                </div>
+                <li id="Cursos"><a href="#">Cursos</a></li>
+                <div id="OpcionesCursos" class="opciones">
+                    <ul>
+                        <li><a href="../pages/español.html#Cursos">Idioma Español</a></li>
+                        <li><a href="../pages/ingles.html#Cursos">Idioma Inglés</a></li>
+                        <li><a href="../pages/portugues.html#Cursos">Idioma Portugués</a></li>
+                        <li><a href="../pages/italiano.html#Cursos">Idioma Italiano</a></li>
+                    </ul>
+                </div>
+                <li><a href="quienes_somos.html">Quiénes somos</a></li>
+                <li><a href="../pages/gestionar_cursos.html">Gestionar cursos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+
+        <a href="../pages/login.html" class="button">Iniciar sesión</a>
+    </header>
+
+    <main>
+
+        <article id="Contenedor_form">
+            <h1>Creación/Actualización de Curso</h1>
+            <hr>
+            <form id="Form_curso" method="POST">
+                
+                <span>
+                    <label for="Tipo_curso">Tipo de curso</label> <!--Es el titulo previo al recuadro. El atributo "for" asocia la label con su input, por medio de un ID (es Case Sensitive)-->
+                    <input id="Tipo_curso" name="tipo_curso" type="text" maxlength="25" required placeholder="Ingrese el tipo"> <!--Input es la etiqueta más importante. Es el cuadrito donde ingreso info.-->
+                </span>
+
+                <span>
+                    <label for="Curso">Nombre</label>
+                    <input id="Curso" name="curso" type="text" maxlength="30" required placeholder="Ingrese el nombre">
+                </span>
+
+                <span>
+                    <label for="Nivel">Nivel</label>
+                    <input id="Nivel" name="nivel" type="text" maxlength="2" required placeholder="Por ej.: A1, C2, ...">
+                </span>
+
+                <span>
+                    <label for="Profesor">Profesor asignado</label>
+                    <input id="Profesor" name="profesor" type="text" maxlength="50" required placeholder="Nombre y apellido">
+                </span>
+
+                <span>
+                    <label for="Duracion">Duración</label>
+                    <input id="Duracion" name="duracion" type="number" maxlength="2" required placeholder="en meses">
+                </span>
+
+                <span>
+                    <label for="Fecha_inicio">Fecha de inicio</label>
+                    <input id="Fecha_inicio" name="fecha_inicio" type="date" required>
+                </span>
+
+                <span>
+                    <label for="Fecha_finalizacion">Fecha de finalización</label>
+                    <input id="Fecha_finalizacion" name="fecha_finalizacion" type="date" required>
+                </span>
+
+                <span>
+                    <label for="Dias_cursada">Días de cursada</label>
+                    <input id="Dias_cursada" name="dias_cursada" type="text" maxlength="19" required placeholder="Por ej.: lun-mar-vie-jue-vie">
+                </span>
+
+                <div id="Acciones_form">
+                    <button id="Boton_crear" title="Crear/Actualizar"><i class='bx bx-message-square-check'></i></button>
+                    <a href="../pages/gestionar_cursos.html" id="Cancelar" title="Cancelar"><i class='bx bx-message-square-x'></i></a>
+                </div>
+            </form>
+        </article>
+
+    </main>
+
+    <footer>
+        <div id="Derechos" class="contenedorFooter">
+            <p>2024 © Idiomatic Inc. - Derechos reservados</p>
+        </div>
+
+        <div class="contenedorFooter"> 
+            <a href="../index.html"><img src="../src/img/LogoLeyendaSinFondo_Idiomatic.png" alt="LogoLeyenda_Idiomatic"></a>
+        </div>
+      
+        <div id="Redes" class="contenedorFooter">
+            <a href="https://www.facebook.com/" target="_blank"><i class='bx bxl-facebook-square'></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class='bx bxl-instagram'></i></a>
+            <a href="https://x.com/" target="_blank"><i class='bx bxl-twitter'></i></a>
+            <a href="https://www.youtube.com/" target="_blank"><i class='bx bxl-youtube'></i></a>
+            <a href="https://ar.linkedin.com/" target="_blank"><i class='bx bxl-linkedin-square'></i></a>
+    </footer>
+
+    <script src="../js/fetchData.js"></script>
+    <script src="../js/crear_actualizar_curso.js"></script>
+
+</body>
+</html>

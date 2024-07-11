@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestionar cursos | Idiomatic</title>
+
+    <!-- Favicon del sitio -->
+    <link rel="icon" href="../src/img/LogoSinFondo_Idiomatic.png">
+
+    <!-- Linkeo con Boxicon font -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+    <!-- Linkeo con hoja de estilo en CSS -->
+    <link rel="stylesheet" href="../styles/gestionar_cursos.css">
+
+</head>
+<body>
+
+    <header id="Inicio">
+        <a href="../index.html#" title="Home">
+            <img src="../src/img/LogoLeyendaSinFondo_Idiomatic.png" alt="LogoLeyenda_Idiomatic">
+        </a>
+
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li id="Idiomas"><a href="#">Idiomas</a></li>
+                <div id="OpcionesIdiomas" class="opciones">
+                    <ul>
+                        <li><a href="español.html">Idioma Español</a></li>
+                        <li><a href="ingles.html">Idioma Inglés</a></li>
+                        <li><a href="portugues.html">Idioma Portugués</a></li>
+                        <li><a href="italiano.html">Idioma Italiano</a></li>
+                    </ul>
+                </div>
+                <li id="Cursos"><a href="#">Cursos</a></li>
+                <div id="OpcionesCursos" class="opciones">
+                    <ul>
+                        <li><a href="../pages/español.html#Cursos">Idioma Español</a></li>
+                        <li><a href="../pages/ingles.html#Cursos">Idioma Inglés</a></li>
+                        <li><a href="../pages/portugues.html#Cursos">Idioma Portugués</a></li>
+                        <li><a href="../pages/italiano.html#Cursos">Idioma Italiano</a></li>
+                    </ul>
+                </div>
+                <li><a href="quienes_somos.html">Quiénes somos</a></li>
+                <li><a href="#">Gestionar cursos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+
+        <a href="../pages/login.html" class="button">Iniciar sesión</a>
+    </header>
+
+    <main>
+        
+        <section id="Contenedor_total">
+
+            <div class="botonera">
+                <button id="Boton_oferta">Oferta Académica</button>
+                <button id="Boton_inscripciones">Inscripciones</button>
+            </div>
+
+            <div id="Contenedor_oferta" class="contenedor_cursos">
+                <table id="Contenedor_tabla_oferta">
+                    <tr id="Header_oferta">
+                        <th>Tipo de curso</th>
+                        <th>Nombre del Curso</th>
+                        <th>Nivel</th>
+                        <th>Profesor a cargo</th>
+                        <th>Duración</th>
+                        <th>Fecha de inicio</th>
+                        <th>Fecha de finalización</th>
+                        <th>Días de cursada</th>
+                        <th>Acciones</th>
+                    </tr>
+
+                    <tr id="Plantilla_oferta">
+                        <td id="ID_curso" type="hidden" style="display: none;" name="id_curso"></td>
+                        <td id="Tipo_Curso"></td>
+                        <td id="Curso"></td>
+                        <td id="Nivel"></td>
+                        <td id="Profesor"></td>
+                        <td id="Duracion"></td>
+                        <td id="Fecha_inicio"></td>
+                        <td id="Fecha_finalizacion"></td>
+                        <td id="Dias_cursada"></td>
+                        <td id="Acciones">
+                            <button id="Boton_inscribirse" title="Inscribirse"><i class='bx bx-message-square-check'></i></button>
+                            <button class="boton_editar" title="Editar curso"><i class='bx bx-message-square-x' ></i></button>
+                            <button id="Boton_eliminar" title="Eliminar curso"><i class='bx bx-message-square-edit'></i></button>
+                        </td>
+                    </tr>
+
+                </table>
+            </div>
+
+            <div id="Contenedor_inscripciones" class="contenedor_cursos">
+                <table id="Contenedor_tabla_inscripciones">
+                    <tr id="Header_inscripciones">
+                        <th>Tipo de curso</th>
+                        <th>Nombre del Curso</th>
+                        <th>Nivel</th>
+                        <th>Profesor a cargo</th>
+                        <th>Duración</th>
+                        <th>Fecha de inicio</th>
+                        <th>Fecha de finalización</th>
+                        <th>Días de cursada</th>
+                        <th>Acciones</th>
+                    </tr>
+
+                    <tr id="Plantilla_oferta">
+                        <td id="ID_curso" type="hidden" style="display: none;" name="id_curso"></td>
+                        <td id="Tipo_Curso"></td>
+                        <td id="Curso"></td>
+                        <td id="Nivel"></td>
+                        <td id="Profesor"></td>
+                        <td id="Duracion"></td>
+                        <td id="Fecha_inicio"></td>
+                        <td id="Fecha_finalizacion"></td>
+                        <td id="Dias_cursada"></td>
+                        <td id="Acciones">
+                            <button id="Boton_desinscribirse" title="Desinscribirse"><i class='bx bx-message-square-minus' ></i></button>
+                            <button class="boton_editar" title="Editar curso"><i class='bx bx-message-square-edit'></i></button>
+                        </td>
+                    </tr>
+
+                </table>
+            </div>
+
+            <div id="Boton_agregar_curso" class="botonera">
+                <a href="../pages/crear_actualizar_curso.html"><button title="Crear curso"><i class='bx bx-plus-circle'></i></button></a>
+            </div>
+        </section>
+
+
+
+    </main>
+    
+
+    <footer>
+        <div id="Derechos" class="contenedorFooter">
+            <p>2024 © Idiomatic Inc. - Derechos reservados</p>
+        </div>
+
+        <div class="contenedorFooter"> 
+            <a href="../index.html"><img src="../src/img/LogoLeyendaSinFondo_Idiomatic.png" alt="LogoLeyenda_Idiomatic"></a>
+        </div>
+      
+        <div id="Redes" class="contenedorFooter">
+            <a href="https://www.facebook.com/" target="_blank"><i class='bx bxl-facebook-square'></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class='bx bxl-instagram'></i></a>
+            <a href="https://x.com/" target="_blank"><i class='bx bxl-twitter'></i></a>
+            <a href="https://www.youtube.com/" target="_blank"><i class='bx bxl-youtube'></i></a>
+            <a href="https://ar.linkedin.com/" target="_blank"><i class='bx bxl-linkedin-square'></i></a>
+    </footer>
+
+
+    <script src="../js/fetchData.js"></script>
+    <script src="../js/gestionar_cursos.js"></script>
+
+</body>
+</html>
